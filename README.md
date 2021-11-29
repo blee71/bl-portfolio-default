@@ -1,4 +1,5 @@
 # Professional Portfolio
+# (LIVE: https://blee71.github.io/bl-portfolio-default)
 
 To gain exposure to front-end development, I created a professional website to 
 include my bio, resume, latest work, etc.

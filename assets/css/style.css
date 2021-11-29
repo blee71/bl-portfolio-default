@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i);
+
+body, .btn {
+  background: black;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+li {
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 75px;
+  padding-top: 80px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 65px;
+  padding-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 75px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  opacity: 90%;
+  z-index: 1;
+}
+
+.bar-options {
+  display: flex;
+}
+
+.nav-name {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 1%;
+}
+
+.btn {
+  width: 100px;
+  background-color: white;
+  border-radius: 25px; 
+  color: #e02626;
+  margin: 40px 20px;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 20px;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: black;
+  transition: ease-in-out 0.5s;
+}
+
+.btn:hover:after {
+  width: 100%;
+}
+
+.hero-block {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+}
+
+.hero-overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(29, 1, 1, 0.671);
+}
+
+.section3 h2 {
+  font-size: 65px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 150px;
+  position: relative;
+  color: #ffffff;
+}
+
+/*------------------------------
+  ABOUT
+--------------------------------*/
+.about-block {
+  margin: 135px;
+}
+
+.about-txt {
+  font-size: 22px;
+  margin-top: 230px;
+  max-width: 850px;
+  height: auto;
+  float: right;
+}
+
+.about-links {
+  color:#B76E79;
+}
+
+.me-img {
+  margin-top: 325px;
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+/*------------------------------
+  SKILLS
+--------------------------------*/
+.skills-base {
+  background-image: url(../img/techy.gif);
+  background-size: cover;
+}
+
+.all-skills li {
+  margin-left: 130px;
+  color: white;
+}
+
+.skill {
+  float: left;
+  height: 10px;
+  background: #149ddd;
+}
+
+.bar {
+  display: block;
+  background-color: #272626;
+  height: 10px;
+  width: 360px;
+  margin: 1px;
+}
+
+.Python {
+  width: 85%;
+}
+
+.CPP {
+  width: 75%;
+}
+
+.x86 {
+  width: 55%;
+}
+
+.HTML5 {
+  width: 40%;
+}
+
+.CSS {
+  width: 25%;
+}
+
+.PHP {
+  width: 20%;
+}
+
+/*------------------------------
+  LATEST WORK
+--------------------------------*/
+.latest-header {
+  padding-top: 120px;
+  margin: 85px;
+  text-align: center;
+}
+
+.project a h3{
+  display: inline;
+  color: whitesmoke;
+  font-size: 40px;
+  height: 12vh;
+  background-size: cover;
+  opacity: 60%;
+  transition: 0.5s;
+  border-radius: 100px;
+  position: relative;
+  display: block;
+  width: 45%;
+  margin: auto;
+  /*margin: auto;*/
+  text-align: center;
+}
+
+.project a h3:hover {
+  color:red;
+  opacity: 100%;
+  height: 16vh;
+  width: 75%;
+}
+
+.SRF {
+  background-image: url("../img/srf-blurb.gif");
+}
+
+.pledge-project {
+  background-image: url("../img/zeta-project-blurb.gif");
+}
+
+.hangman {
+  background-image: url("../img/hangman-blur.gif");
+}
+
+/*------------------------------
+  CONTACT
+--------------------------------*/
+.contact {
+  height: 500px;
+  margin-top: 500px;
+  margin-bottom: 20px;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+.media-links {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+}
+
+#media-links {
+  text-align: center;
+}
+
+.logo1 {
+  width: 45px;
+  height: 45px;
+  opacity: 100%;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.logo2 {
+  width: 48px;
+  height: 48px;
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.logo1:hover {
+  width: 50px;
+  height: 50px;
+  opacity: 50%;
+}
+
+.logo2:hover {
+  width: 55px;
+  height: 55px;
+  opacity: 50%;
+}
+
+/*------------------------------
+  FOOTER
+--------------------------------*/
+#footer {
+  padding: 15px;
+  font-size: 14px;
+  position: relative;
+  width: auto;
+  z-index: 9999;
+  background-color: black;
+}
+
+#footer .copyright {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
